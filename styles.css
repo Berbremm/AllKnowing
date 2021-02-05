@@ -32,8 +32,8 @@ body,
   font-family: "Londrina Solid", cursive;
 }
 .img-container {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
   display: block;
   overflow: hidden;
