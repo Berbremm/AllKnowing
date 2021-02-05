@@ -1,0 +1,19 @@
+{
+  "name": "reckless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./ --port 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavorino/reckless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavorino/reckless/issues"
+  },
+  "homepage": "https://github.com/gustavorino/reckless#readme"
+}

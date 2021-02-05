@@ -1,0 +1,124 @@
+body {
+  background-color: #0b070a;
+  position: relative;
+  animation: body 8s infinite;
+}
+
+.bg {
+  background-color: #e5e5f7;
+  opacity: 0.04;
+  background-image: linear-gradient(135deg, #444cf7 25%, transparent 25%),
+    linear-gradient(225deg, #444cf7 25%, transparent 25%),
+    linear-gradient(45deg, #444cf7 25%, transparent 25%),
+    linear-gradient(315deg, #444cf7 25%, #e5e5f7 25%);
+  background-position: 20px 0, 20px 0, 0 0, 0 0;
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+body,
+* {
+  font-family: "Londrina Solid", cursive;
+}
+.img-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+.buttons a {
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  z-index: 3;
+  position: relative;
+  transition: 0.05s;
+}
+.buttons a:hover {
+  transform: scale(1.5, 1.5);
+  z-index: 4;
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.buttons a img {
+  margin-right: 10px;
+  height: 30px;
+  width: auto;
+}
+
+.btn-instagram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+
+@keyframes body {
+  0% {
+    background: #bc318f;
+  }
+  25% {
+    background: #9f0;
+  }
+  50% {
+    background: #6559ca;
+  }
+  75% {
+    background: #e5e5f7;
+  }
+  100% {
+    background: #bc318f;
+  }
+}
