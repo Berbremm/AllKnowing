@@ -3,6 +3,7 @@ a {display: inline-block}
 
 body {
   background-image: url("./images/backgroundhomepage.jpg");
+  background-size: cover;
 }
 
 
