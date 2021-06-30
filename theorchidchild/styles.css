@@ -14,12 +14,12 @@ position: absolute;
 z-index: 2;
 left: 0;
 top: 0;
-font-family: 'Carter One', cursive;
+font-family: 'Fredoka One', cursive;
 }
 
 .navbar a {
     text-decoration: none;
-    padding: 1px 15px; 
+    padding: 4px 17px; 
     float:left;
     font-size: 22px;
     color: white;
@@ -36,7 +36,7 @@ font-family: 'Carter One', cursive;
     border: none;
     outline: none;
     color: white;
-    padding: 1px 15px;
+    padding: 4px 17px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -73,7 +73,7 @@ font-family: 'Carter One', cursive;
   }
 
 .content {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Goldman', cursive;
     width: 1140px;
     position: relative;
     z-index: 2;
@@ -93,7 +93,7 @@ h3 { font-size: 80px;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 105px;
     margin:auto;
     color: rgb(230, 230, 230);
     -webkit-filter: drop-shadow(-8px 5px rgba(0, 0, 0));
@@ -262,6 +262,7 @@ h4 {
     }
 
 
+
 .smallerimg-container {
     margin: auto;
     display: block;
@@ -329,15 +330,15 @@ h4 {
     }
 
 #mc-embedded-subscribe {
-    font-family: 'Carter One', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 #mce-EMAIL{
-    font-family: 'Carter One', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 .footer {
-    font-family: 'Carter One', cursive;
+    font-family: 'Fredoka One', cursive;
     position: absolute;
     left: 0;
     min-width: 1140px;
