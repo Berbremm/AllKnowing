@@ -46,7 +46,7 @@ font-family: 'Fredoka One', cursive;
     display: none;
     position: absolute;
     background-color: #ffffff;
-    z-index: 0;
+    z-index: 3;
     min-width: 160px;
   }
 
