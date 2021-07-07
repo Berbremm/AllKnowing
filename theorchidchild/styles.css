@@ -11,7 +11,7 @@ body {
 background-color: rgb(0, 0, 0);
 width: auto;
 position: absolute;
-z-index: 2;
+z-index: 3;
 left: 0;
 top: 0;
 font-family: 'Fredoka One', cursive;
@@ -143,6 +143,7 @@ h4 {
     width: 1140px;
     display: block;
     margin: auto;
+    z-index: 2;
     }
 
 .main-title-container img{
