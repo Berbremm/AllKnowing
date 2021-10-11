@@ -130,62 +130,62 @@ h1 {
   margin-bottom: 20px;
 }
 
-.release-container {
+.playlist-container {
   margin-top: 50px;
-  height: 300px;
+  height: 450px;
   width: 950px;
+  display: flex;
   background-image: url("./images/sectionbg.jpg");
   position: relative;
   border: 1px solid rgb(189, 85, 116);
   -webkit-filter: drop-shadow(0px 0px 11px rgba(189, 85, 116, 0.55));
 }
 
-.release-artwork {
+.playlist-artwork {
   margin:0;
-  height:300px;
-  width: 30%;
-  float:left;
+  padding: 2%;
 }
 
-.release-artwork img{
-  margin-top: 7.5%;
-  margin-left: 5%;
-  height:85%;
+.playlist-artwork img{
+  height: 75%;
   border: 1px solid rgb(189, 85, 116);
   -webkit-filter: drop-shadow(0px 0px 10px rgba(189, 85, 116, 0.7));
 }
 
-.release-info-a {
-  width: 35%;
-  height: 300px;
-  float: left;
-  position:relative;
-}
-
-.release-info-b {
-  width: 35%;
-  height: 300px;
-  float: left;
-  position:relative;
-}
-
 h3 {
   color: white;
-  font-size: 28px;
+  font-size: 58px;
   margin:0;
-  margin-top:5%;
-  margin-left:2%;
+  margin-top:3%;
   -webkit-filter: drop-shadow(0px 0px 4px rgba(226, 205, 16, 0.8));
   }
 
-h4{
+  h4 {
+    color:white;
+    text-align: justify;
+    font-size:24px;
+    margin:0;
+    margin-top:2%;
+    margin-right: 10%;
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(189, 85, 116, 0.65));
+  }
+
+h5 {
   color:white;
-  font-size:18px;
-  margin:0;
-  margin-top:1%;
-  margin-left:2%;
+  font-size:16px;
+  margin-top:2%;
+  margin-right:10%;
+  text-align: justify;
   -webkit-filter: drop-shadow(0px 0px 3px rgba(189, 85, 116, 0.65));
 }
+
+h6{
+  color:white;
+  margin:0;
+  font-size:20px;
+  -webkit-filter: drop-shadow(0px 0px 3px rgba(189, 85, 116, 0.65));
+}
+
 
 .button-listen{
   margin-bottom:8px;
